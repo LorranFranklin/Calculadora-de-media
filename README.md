@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto Meu Portfólio" src="./img/PROJETO.png" width="100%">
+  <img alt="projeto Meu Portfólio" src="./img/CALCULADORA.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -23,4 +23,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este é o meu mais novo projeto.
 
-- [Acesse o projeto finalizado, online](https://exercicio-html-js-taupe.vercel.app/)
+- [Acesse o projeto finalizado, online](https://calculadora-de-media-9a7j.vercel.app/)
