@@ -106,7 +106,7 @@ table img {
   background-color: red;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 660px) {
   body {
     padding-top: 2em;
   }
