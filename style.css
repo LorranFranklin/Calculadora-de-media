@@ -108,20 +108,23 @@ table img {
 
 @media (max-width: 390px) {
   body {
-    padding-top: 2.5em;
+    padding-top: 2em;
   }
   header {
     padding: 8px;
   }
+  header img {
+    height: 24px;
+  }
   header h1 {
-    font-size: 32px;
+    font-size: 22px;
   }
   form {
     flex-direction: column;
     padding: 0 .5rem;
   }
   form input {
-    margin: .2rem;
+    margin: 0 .2rem .2rem;
     font-size: 20px;
   }
   form button {
@@ -129,7 +132,7 @@ table img {
     font-size: 20px;
   }
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
   table tr {
     
@@ -138,5 +141,8 @@ table img {
   }
   table td {
     font-size: 14px;
+  }
+  table th {
+    font-size: 18px;
   }
 }
