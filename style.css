@@ -105,3 +105,38 @@ table img {
 .reprovado {
   background-color: red;
 }
+
+@media (max-width: 390px) {
+  body {
+    padding-top: 2.5em;
+  }
+  header {
+    padding: 8px;
+  }
+  header h1 {
+    font-size: 32px;
+  }
+  form {
+    flex-direction: column;
+    padding: 0 .5rem;
+  }
+  form input {
+    margin: .2rem;
+    font-size: 20px;
+  }
+  form button {
+    margin-top: .2rem;
+    font-size: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  table tr {
+    
+    font-size: 14px;
+    padding: .5rem;
+  }
+  table td {
+    font-size: 14px;
+  }
+}
