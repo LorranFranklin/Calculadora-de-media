@@ -4,22 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <title>Calculadora de média</title>
 </head>
 <body>
-  <header>
-    <img src="./img/logo.png" alt="">
-    <h1>Calculadora de Média</h1>
-  </header>
-  <form id="form-atividade">
-    <label for="nome-atividade">Digite a atividade:</label>
-    <input type="text" id="nome-atividade" placeholder="Nome da Atividade" required autocomplete="off">
-    
-    <label for="nota-atividade">Digite a nota:</label>
-    <input type="number" id="nota-atividade" placeholder="0" min="0" max="10" step="0.1" required>
+  <div class="container">
+    <header>
+      <img src="./img/logo.png" alt="Capelo e diploma">
+      <h1>Calculadora de Média</h1>
+    </header>
+    <form id="form-atividade">
+      <input type="text" id="nome-atividade" placeholder="Nome da Atividade" required autocomplete="off">
+      <input type="number" id="nota-atividade" placeholder="Nota" min="0" max="10" step="0.1" required>
+      <button type="submit">Adicionar +</button>
+    </form>
 
-    <button type="submit">Adicionar +</button>
-  </form>
+    <div>
+      <p id="msg"></p>
+    </div>
+    
+    <table cellspacing="0">
+      <thead>
+        <tr>
+          <th>Nome da atividade</th>
+          <th>Nota da atividade</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <tr>
+          
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Média final</td>
+          <td id="media-final-valor">---</td>
+          <td id="media-final-resultado">---</span></td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
   <script src="./index.js"></script>
 </body>
 </html>
